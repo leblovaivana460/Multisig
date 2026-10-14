@@ -1,4 +1,4 @@
-# Multisignature Wallet
+no# Multisignature Wallet
 
 This set of contracts provide "N-of-M multisig" functionality: at least N parties out of predefined set of M _signers_ must approve **Order** to execute it.
 

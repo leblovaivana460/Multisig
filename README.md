@@ -2,6 +2,7 @@ kno# Multisignature Wallet
 
 This set of contracts provide "N-of-M multisig" functionality: at least N parties out of predefined set of M _signers_ must approve **Order** to execute it.
 
+
 Each **Order** may contain arbitrary number of actions: outcoming messages and updates of parameters. Since content of the messages is arbitrary **Order** may execute arbitrary high-level interactions on TON: sending TONs, sending/minting jettons, execute administrative duty, etc.
 
 Parameters, such as threshold N, list of _signers_ and other can only be updated by consensus of current N-of-M owners.
